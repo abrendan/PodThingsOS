@@ -1,0 +1,58 @@
+# Native build products and downloadable releases
+# Never force-add this directory; publish binaries as release attachments.
+/generated-artifacts/
+/build/
+/build-*/
+/dist/
+/coverage/
+/.pytest_cache/
+/.ruff_cache/
+/.mypy_cache/
+/.venv/
+/venv/
+htmlcov/
+.coverage
+.coverage.*
+*.o
+*.a
+*.elf
+*.map
+*.su
+*.pyc
+__pycache__/
+/rockbox-firmware/fonts/*-PodThings-Sans.bdf
+
+# Local tools, caches and editor state (not source dependencies)
+/.local/
+/.cache/
+/node_modules/
+/.idea/
+/.vscode/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Private/local configuration; examples may be committed
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Replit-only state and original uploads; preserve locally, exclude from GitHub
+/.agents/
+/.conversation/
+/attached_assets/
+/.replit
+/.replitignore
+/replit.md
+
+# Local assistant/editor instructions are not part of the firmware source.
+/AGENTS.md
+/CLAUDE.md
+/.claude/
+/.cursor/
+/.codex/

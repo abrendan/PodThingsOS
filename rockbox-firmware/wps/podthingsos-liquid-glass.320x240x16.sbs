@@ -1,0 +1,35 @@
+# PodThings OS — Liquid Glass inspired menus and status bar, 320x240.
+# SPDX-License-Identifier: GPL-2.0-or-later
+%X(menu-backdrop.bmp)
+%Fl(2,16-PodThings-Sans.fnt)
+%xl(B,battery.bmp,0,0)
+%xl(S,selection.bmp,0,0)
+%Vi(-,12,50,296,182,1)
+%Lb(r,296,26)
+
+%V(12,4,90,16,2)
+%Vf(D3E8F5)
+%?St(time format)<%cH|%cI>:%cM
+%V(294,6,22,12,2)
+%Vf(A6E4EF)
+%xd(B)%bl(2,3,16,6,-,noborder)
+%V(242,4,48,16,2)
+%Vf(D3E8F5)
+%ar%bl%%%?bc<+|>
+
+%V(24,26,272,22,1)
+%Vf(F3FAFF)
+%s%?Lt<%Lt>
+%V(3,50,3,182,0)
+%Vf(A6E4EF)
+%?LB<%LB(0,0,3,182,-,vertical)|>
+
+# Paint the pill first, then render text in its own 12px-inset viewport.
+# A foreground-painted flat gradient keeps the text well solid even when an
+# SBS backdrop is active. Vb alone restores wallpaper instead of the pill.
+%Vl(r,0,0,296,26,1)
+%?Lc<%xd(S)|>
+%Vl(r,12,2,272,22,1)
+%Vf(F3FAFF)
+%?Lc<%Vg(345C79,345C79,F3FAFF)%Vs(gradient)|%Vs(clear)%Vb(0D1929)>
+%s%LT

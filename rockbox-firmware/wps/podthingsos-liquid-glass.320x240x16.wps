@@ -1,0 +1,75 @@
+# PodThings OS — liquid-glass card playback screen, 320x240.
+# SPDX-License-Identifier: GPL-2.0-or-later
+%wd
+%X(backdrop.bmp)
+%Fl(2,16-PodThings-Sans.fnt)
+%xl(B,battery.bmp,0,0)
+%xl(M,art-mask.bmp,0,0)
+%xl(D,seek-dot.bmp,0,0)
+%xl(H,branding.bmp,0,0)
+%xl(U,volume-panel.bmp,0,0)
+%xl(T,volume-track.bmp,0,0)
+%xl(F,volume-fill.bmp,0,0)
+%?pN<%Vd(P)%Vd(L)|%Vd(I)>
+
+%Vl(L,12,5,16,16,2)
+%xd(H)
+%Vl(P,36,4,92,16,2)
+%Vf(A2C0D8)
+PodThings OS
+%Vl(I,12,4,116,16,2)
+%Vf(A2C0D8)
+iPod
+%V(132,4,56,16,2)
+%Vf(A2C0D8)
+%ac%?St(time format)<%cH|%cI>:%cM
+%V(294,6,22,12,2)
+%Vf(A6E4EF)
+%xd(B)%bl(2,3,16,6,-,noborder)
+%V(242,4,48,16,2)
+%Vf(D3E8F5)
+%ar%bl%%%?bc<+|>
+
+%?pJ<%Vd(s)%Vd(t)|%?mv(2)<%Vd(v)%Vd(w)%Vd(z)|%Vd(n)%Vd(t)>>
+%?C<%Vd(a)|%Vd(b)>
+%Vl(a,24,58,112,112,1)
+%Cl(0,0,112,112,c,c)
+%Cd%xd(M)
+%Vl(b,24,104,112,18,2)
+%Vf(A6E4EF)
+%acNO ARTWORK
+
+%V(150,60,146,20,2)
+%Vf(F3FAFF)
+%?pQ<%s%?it<%it|%fn>|Loading...>
+%V(150,90,146,18,2)
+%Vf(D3E8F5)
+%?pQ<%s%?ia<%ia|Unknown artist>|>
+%V(150,117,146,18,2)
+%Vf(A2C0D8)
+%?pQ<%s%?id<%id|Unknown album>|>
+%V(150,148,146,16,2)
+%Vf(A6E4EF)
+%?pQ<%fc%?fk< · %fk kHz|>|>
+%V(150,166,146,16,2)
+%Vf(A2C0D8)
+%?pQ<%?fb<%fb kbps|>|>
+
+%Vl(v,12,196,296,40,2)
+%xd(U)
+%Vl(w,28,198,264,16,2)
+%Vg(22394E,22394E,A6E4EF)%Vs(gradient)
+%acVolume %pv dB
+%Vl(z,28,222,264,6,2)
+%Vf(A6E4EF)
+%pv(0,0,264,6,-,image,F,backdrop,T)
+
+%Vl(s,12,201,296,9,1)
+%Vf(345C79)
+%pb(0,0,296,9,-,noborder,slider,D)
+%Vl(n,12,201,296,9,1)
+%Vf(A6E4EF)
+%pb(0,0,296,9)
+%Vl(t,16,217,288,20,2)
+%Vf(D3E8F5)
+%al%pc%ar%pt

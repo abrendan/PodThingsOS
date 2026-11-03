@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="400" viewBox="0 0 256 400" fill="none">
+  <title>PodThings OS iPod logo</title>
+  <desc>A cream and lavender click-wheel iPod with a purple music screen, leaning slightly to the left. Transparent background.</desc>
+  <defs>
+    <linearGradient id="body" x1="24" y1="24" x2="232" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF6EE"/>
+      <stop offset="1" stop-color="#D9CCF2"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="128" y1="44" x2="128" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241047"/>
+      <stop offset="1" stop-color="#3F2290"/>
+    </linearGradient>
+    <linearGradient id="artwork" x1="52" y1="54" x2="116" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B860"/>
+      <stop offset=".55" stop-color="#C2569B"/>
+      <stop offset="1" stop-color="#5B2FC4"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(-3 128 200)">
+    <rect x="24" y="24" width="208" height="352" rx="28" fill="url(#body)" stroke="#5B33B8" stroke-width="3.5"/>
+    <rect x="42" y="44" width="172" height="130" rx="10" fill="url(#screen)" stroke="#2A1458" stroke-width="3"/>
+    <rect x="52" y="54" width="64" height="64" rx="6" fill="url(#artwork)"/>
+    <circle cx="84" cy="86" r="16" stroke="#FFF6E5" stroke-opacity=".75" stroke-width="2.5"/>
+    <circle cx="84" cy="86" r="3.5" fill="#FFF6E5"/>
+    <rect x="126" y="60" width="74" height="9" rx="2" fill="#FAF3E6"/>
+    <rect x="126" y="78" width="54" height="7" rx="2" fill="#B7A0F0"/>
+    <rect x="126" y="94" width="40" height="7" rx="2" fill="#8B6FE0"/>
+    <rect x="52" y="140" width="148" height="4" rx="2" fill="#6546B8"/>
+    <rect x="52" y="140" width="86" height="4" rx="2" fill="#F4B860"/>
+    <rect x="52" y="154" width="28" height="5" rx="2" fill="#9C7DE8"/>
+    <rect x="172" y="154" width="28" height="5" rx="2" fill="#9C7DE8"/>
+    <circle cx="128" cy="278" r="76" fill="#FFFAF1" stroke="#7C3AED" stroke-width="3"/>
+    <path d="M122 211H134M195 275V281M122 345H134M61 275V281" stroke="#B7A0F0" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="128" cy="278" r="29" fill="#6D35D6"/>
+  </g>
+</svg>

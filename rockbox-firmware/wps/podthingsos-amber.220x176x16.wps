@@ -1,0 +1,71 @@
+# PodThings OS Photo — native 220x176 playback.
+# SPDX-License-Identifier: GPL-2.0-or-later
+%wd
+%X(photo-backdrop.bmp)
+%Fl(2,12-Adobe-Helvetica.fnt)
+%Fl(3,16-PodThings-Sans.fnt)
+%xl(B,photo-battery.bmp,0,0)
+%xl(M,photo-art-mask.bmp,0,0)
+%xl(D,photo-seek-dot.bmp,0,0)
+%xl(H,photo-branding.bmp,0,0)
+%xl(U,photo-volume-panel.bmp,0,0)
+%xl(T,photo-volume-track.bmp,0,0)
+%xl(F,photo-volume-fill.bmp,0,0)
+%?pN<%Vd(P)%Vd(L)|%Vd(I)>
+%Vl(L,8,4,12,12,2)
+%xd(H)
+%Vl(P,24,3,70,12,2)
+%Vf(C4AB86)
+PodThings OS
+%Vl(I,8,3,86,12,2)
+%Vf(C4AB86)
+iPod
+%V(95,3,30,12,2)
+%Vf(C4AB86)
+%ac%?St(time format)<%cH|%cI>:%cM
+%V(194,4,22,12,2)
+%Vf(F4C57A)
+%xd(B)%bl(2,3,16,6,-,noborder)
+%V(153,3,36,12,2)
+%Vf(EAD6B5)
+%ar%bl%%%?bc<+|>
+%?pJ<%Vd(s)%Vd(t)|%?mv(2)<%Vd(v)%Vd(w)%Vd(z)|%Vd(n)%Vd(t)>>
+%?C<%Vd(a)|%Vd(b)>
+%Vl(a,15,41,80,80,3)
+%Cl(0,0,80,80,c,c)
+%Cd%xd(M)
+%Vl(b,15,75,80,16,2)
+%Vf(F4C57A)
+%acNO ARTWORK
+%V(106,42,100,18,3)
+%Vf(FFF9EE)
+%?pQ<%s%?it<%it|%fn>|Loading...>
+%V(106,65,100,18,3)
+%Vf(EAD6B5)
+%?pQ<%s%?ia<%ia|Unknown artist>|>
+%V(106,88,100,18,3)
+%Vf(C4AB86)
+%?pQ<%s%?id<%id|Unknown album>|>
+%V(106,111,100,12,2)
+%Vf(F4C57A)
+%?pQ<%fc%?fk< · %fk kHz|>|>
+%V(106,125,100,12,2)
+%Vf(C4AB86)
+%?pQ<%?fb<%fb kbps|>|>
+%Vl(v,8,146,204,28,2)
+%xd(U)
+%Vl(w,18,148,184,12,2)
+%Vg(392A16,392A16,F4C57A)%Vs(gradient)
+%acVolume %pv dB
+%Vl(z,18,165,184,5,2)
+%Vf(F4C57A)
+%pv(0,0,184,5,-,image,F,backdrop,T)
+%Vl(s,8,148,204,7,3)
+%Vf(805516)
+%pb(0,0,204,7,-,noborder,slider,D)
+%Vl(n,8,148,204,7,3)
+%Vf(F4C57A)
+%pb(0,0,204,7)
+%Vl(t,10,160,200,16,2)
+%Vf(EAD6B5)
+%al%pc%ar%pt

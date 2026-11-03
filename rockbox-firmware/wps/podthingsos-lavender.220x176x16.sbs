@@ -1,0 +1,28 @@
+# PodThings OS Photo — native 220x176 menus.
+# SPDX-License-Identifier: GPL-2.0-or-later
+%Fl(2,12-Adobe-Helvetica.fnt)
+%xl(B,photo-battery.bmp,0,0)
+%xl(S,photo-selection.bmp,0,0)
+%Vi(-,8,42,204,130,1)
+%Lb(r,204,20)
+%V(8,3,64,12,2)
+%Vf(49365F)
+%?St(time format)<%cH|%cI>:%cM
+%V(194,4,22,12,2)
+%Vf(65448A)
+%xd(B)%bl(2,3,16,6,-,noborder)
+%V(153,3,36,12,2)
+%Vf(49365F)
+%ar%bl%%%?bc<+|>
+%V(16,21,196,18,1)
+%Vf(2B2043)
+%s%?Lt<%Lt>
+%V(2,42,3,130,0)
+%Vf(65448A)
+%?LB<%LB(0,0,3,130,-,vertical)|>
+%Vl(r,0,0,204,20,1)
+%?Lc<%xd(S)|>
+%Vl(r,8,2,188,16,1)
+%Vf(2B2043)
+%?Lc<%Vg(E0D5F5,E0D5F5,2B2043)%Vs(gradient)|%Vs(clear)%Vb(F4EEFC)>
+%s%LT

@@ -1,0 +1,28 @@
+Liquid Glass landscape wallpaper
+================================
+
+Title: Tunnel view, Yosemite.jpg
+Photographer: Ted Wakabayashi
+Description-page date: 31 January 2010
+Source: https://commons.wikimedia.org/wiki/File:Tunnel_view,_Yosemite.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/4/45/Tunnel_view%2C_Yosemite.jpg
+License status verified: 25 October 2026
+
+The author released this photograph into the public domain worldwide.
+The source page states:
+
+"This work has been released into the public domain by its author,
+Ted Wakabayashi. This applies worldwide.
+In some countries this may not be legally possible; if so:
+Ted Wakabayashi grants anyone the right to use this work for any purpose,
+without any conditions, unless such conditions are required by law."
+
+PodThings OS modifications:
+- Center-cropped and resized to 320x240; metadata stripped.
+- Generated menu/playback versions use dark tinting and pre-rendered blur
+  behind glass panels for readability.
+
+The bundled yosemite.png is a cropped derivative of the photograph.
+No Apple wallpaper or Apple-owned artwork is included.
+This note documents the photograph's provenance; it does not change the
+public-domain dedication or the licenses of the firmware, fonts or code.

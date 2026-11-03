@@ -173,7 +173,8 @@ On Linux, install `libusb-1.0-0-dev` first. Packaging validates ARM images,
 model/API compatibility, skins, fonts and archive contents, and publishes
 corresponding GPL source separately with hashes. Binary kits contain no
 developer documents. Host checks do not prove physical
-playback, write endurance or recovery. GitHub Actions runs the host tests only.
+playback, write endurance or recovery. Tests are run manually; this repository
+does not configure automatic GitHub Actions checks.
 
 ## Repository layout
 
@@ -183,7 +184,6 @@ assets/            Branding sources, fonts and their licenses
 scripts/           Build, asset generation, test preparation and packaging
 tests/             Host-side regression tests and native C harnesses
 docs/              Current release, hardware, theme and music documentation
-.github/workflows/ Host-test CI
 VERSION            Current release number
 ```
 

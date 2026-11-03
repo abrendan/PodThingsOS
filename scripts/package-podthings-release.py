@@ -34,7 +34,7 @@ EXTRAS = [
     "docs/INSTALLATION.md",
     "scripts/check-public-repo.py",
     "VERSION", "LICENSE", "CHANGELOG.md", "CONTRIBUTING.md",
-    ".gitignore", ".github/workflows/ci.yml", "scripts/prepare-host-tests.sh",
+    ".gitignore", "scripts/prepare-host-tests.sh",
     "scripts/package-podthings-nano.py",
     "tests/test_nano_port.py",
     "rockbox-firmware/apps/bitmaps/native/rockboxlogo.80x32x16.podthings.bmp",
